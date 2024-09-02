@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: none;
+  text-decoration: none;
+  color: white;
+}
+body{
+background: #121214;
+}
+div.flex{
+display: flex;
+flex-wrap: wrap;
+}
+
+div h1.titulo{
+font-size: 32px;
+font-weight: 500;
+}
+
+div h3.subTitulo{
+font-size: 15px;
+font-weight: 500;
+margin: 10px 0px 10px 0px;
+}
+
+/* Tarefas Mensais parte 1 */
+
+section.botoes{
+  width: 20%;
+  display: block;
+}
+
+section.botoes ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-top:40px;
+  margin-left: 20px;
+  list-style: none;
+  
+}
+section.botoes ul li a{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 30px;
+  width: 200px;
+  background: #D9D9D9;
+  border: #000000 1px solid;
+  margin-left:20px;
+  border-radius: 4px;
+}
+
+section.botoes ul li a:hover{
+  background: #000000;
+  border: #D9D9D9 1px solid;
+
+}
+
+section.botoes ul li a p{
+  display: inline-block;
+  color: black;
+  font-weight: 500;
+  width: 150px;
+}
+
+section.botoes ul li a p.branco{
+ color: #ffffff;
+}
