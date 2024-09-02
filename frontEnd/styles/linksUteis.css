@@ -73,3 +73,29 @@ section.botoes ul li a p{
 section.botoes ul li a p.branco{
  color: #ffffff;
 }
+
+/* Horario e data */
+
+ul.horario-data {
+  position: absolute;
+  top: 10px; 
+  right: 20px;
+}
+
+ul.horario-data li{
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+ul.horario-data li svg{
+  width: 30px;
+  height: 30px;
+}
+
+ul.horario-data li p{
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
