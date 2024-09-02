@@ -154,7 +154,7 @@ async function verificarMudancaOpcao() {
   }
 
 
-setInterval(verificarMudancaOpcao, 10);
+setInterval(verificarMudancaOpcao, 0);
 
 // Pedido Dsre
 
@@ -165,7 +165,7 @@ function verificarHorarioDsre(){
 
 Solicitamos o envio das notas fiscais de serviço tomado para a realização da DSRE. Lembramos que o prazo para entrega da DSRE é até o 5º dia do mês subsequente à prestação do serviço contratado (5º dia do mês atual). O e-mail para o envio das notas fiscais de serviço tomado é: fiscal01@officecont.cnt.br e pablo.lucas@officecontpe.com.br.`
 }
-  setInterval(verificarHorarioDsre, 10)
+  setInterval(verificarHorarioDsre, 0)
 }
 
 // Calculadora 
@@ -280,5 +280,5 @@ if(document.title === 'Calculadora'){
     
   }
 
-  setInterval(verificarCampos,1000)
+  setInterval(verificarCampos,0)
 }
