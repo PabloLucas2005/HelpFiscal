@@ -17,17 +17,6 @@ display: flex;
 flex-wrap: wrap;
 }
 
-div h1.titulo{
-font-size: 32px;
-font-weight: 500;
-}
-
-div h3.subTitulo{
-font-size: 15px;
-font-weight: 500;
-margin: 10px 0px 10px 0px;
-}
-
 /* Botões parte 1 */
 
 section.botoes{
@@ -76,6 +65,56 @@ section.botoes ul li a p.branco{
  color: #ffffff;
 }
 
+/* Certidões */
+
+h4{
+  font-size: 11px;
+  color: #38BDF8;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+select,option{
+  color: #000000;
+  margin: 10px 0px;
+  border-radius: 4px;
+  height: 40px;
+  width: 70%;
+}
+
+
+section.certidoes a{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 30px;
+  width: 200px;
+  background: #D9D9D9;
+  border: #000000 1px solid;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+section.certidoes a:hover{
+  background: #000000;
+  border: #D9D9D9 1px solid;
+
+}
+
+section.certidoes a p{
+  display: inline-block;
+  color: black;
+  font-weight: 500;
+  width: 150px;
+}
+
+section.certidoes a p.branco{
+  color: #ffffff;
+}
+
+
 /* Horario e data */
 
 ul.horario-data {
@@ -100,4 +139,3 @@ ul.horario-data li p{
   margin-left: 10px;
   font-size: 1.5rem;
 }
-

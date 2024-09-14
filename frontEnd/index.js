@@ -282,3 +282,29 @@ if(document.title === 'Calculadora'){
 
   setInterval(verificarCampos,0)
 }
+// Certidões
+
+function navigateToURL(selectElement) {
+  var url = selectElement.value;
+  if (url) {
+    window.open(url);
+  }
+}
+
+let p2 = document.querySelectorAll("section.certidoes a p");
+let a2 = document.querySelectorAll("section.certidoes a");
+let svg2 = document.querySelectorAll("section.certidoes a svg");
+
+a2.forEach((item, index) => {
+  item.addEventListener("mouseover", () => {
+    p2[index].classList.toggle("branco");
+    svg2[index].style.stroke = "#FAFAFA";
+  });
+});
+
+a2.forEach((item, index) => {
+  item.addEventListener("mouseout", () => {
+    p2[index].classList.toggle("branco");
+    svg2[index].style.stroke = "#000000";
+  });
+});

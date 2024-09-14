@@ -282,3 +282,14 @@ if(document.title === 'Calculadora'){
 
   setInterval(verificarCampos,0)
 }
+
+// Certidões
+
+function navigateToURL(selectElement) {
+  var url = selectElement.value;
+  if (url) {
+      window.location.href = url;
+  }
+}
+
+
